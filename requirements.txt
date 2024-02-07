@@ -1,2 +1,5 @@
+Pillow==9.3.0
+torch==2.2.0
+torchvision==0.17.0
 fastapi==0.100.0
 hypercorn==0.14.4
