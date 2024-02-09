@@ -37,7 +37,7 @@ class Generator(nn.Module):
 # Load the trained model to be used.
 device = torch.device("cpu")
 model = Generator(100).to(device)
-model.load_state_dict(torch.load("../model_assets/generator.pth",map_location ='cpu'))
+model.load_state_dict(torch.load("model_assets/generator.pth",map_location ='cpu'))
 
 
 # API app
